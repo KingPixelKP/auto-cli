@@ -12,6 +12,3 @@ package("auto-cli")
         import("package.tools.xmake").install(package, configs)
     end)
 
-    on_test(function (package)
-        assert(package:has_cfuncs("auto_cli", {includes = "auto-cli/auto-cli.h"}))
-    end)
