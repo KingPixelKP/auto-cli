@@ -4,7 +4,7 @@ package("auto-cli")
     add_urls("https://github.com/KingPixelKP/auto-cli.git")
     add_versions("0.1.0", "341a4a1acf706aaa745040325109925ebf558b8d")
 
-    add_includedirs("include")
+    add_includedirs("auto-cli/include")
     add_links("auto-cli")
 
     on_install(function (package)
