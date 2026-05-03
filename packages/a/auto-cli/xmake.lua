@@ -4,6 +4,9 @@ package("auto-cli")
     add_urls("https://github.com/KingPixelKP/auto-cli.git")
     add_versions("0.1.0", "8b1933c3df9fd6bf1ad86eb6a497f7dc306c5ed5")
 
+    add_includedirs("include")
+    add_links("auto-cli")
+
     on_install(function (package)
         local configs = {}
         if package:config("shared") then
