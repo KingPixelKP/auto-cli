@@ -1,4 +1,4 @@
-#include "auto-cli/auto-cli.h"
+#include "auto-cli.h"
 
 int main(int argc, char** argv) {
     auto_cli::AutoCli cli("xnew", "tool to aid xmake project creation");

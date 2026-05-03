@@ -17,5 +17,9 @@ if has_config("build_main") then
         add_files("main.cpp")
 end
 
-
-includes("auto-cli")
+target("auto-cli")
+    set_kind("static")
+    set_languages("c++20", {public = true})
+    add_files("src/*.cpp")
+    add_includedirs("include", {public = true})
+    add_includedirs("src", {private = true})

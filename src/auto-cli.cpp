@@ -1,4 +1,4 @@
-#include "auto-cli/auto-cli.h"
+#include "auto-cli.h"
 
 #include <iostream>
 #include <algorithm>
