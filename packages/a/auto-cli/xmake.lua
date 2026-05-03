@@ -2,7 +2,7 @@ package("auto-cli")
     set_description("The auto-cli package")
 
     add_urls("https://github.com/KingPixelKP/auto-cli.git")
-    add_versions("0.1.0", "4eb90eb2c6532f478a5d074e70bc1b3f6e69e81d")
+    add_versions("0.1.0", "e8f8adc74049def18f542637e1b4769192f38af0")
 
     add_includedirs("include")
     add_links("auto-cli")
