@@ -1,0 +1,7 @@
+target("auto-cli")
+    set_kind("static")
+    set_languages("c++20", {public = true})
+    add_files("src/*.cpp")
+    add_includedirs("include", {public = true})
+    add_includedirs("include/auto-cli/", {private = true})
+    add_includedirs("src", {private = true})
