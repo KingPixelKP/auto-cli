@@ -1,0 +1,11 @@
+[
+{
+  "directory": "/home/kpgm/code/auto-cli",
+  "arguments": ["/usr/bin/g++", "-c", "-m64", "-std=c++20", "-Iinclude", "-Isrc", "-o", "build/.objs/auto-cli/linux/x86_64/release/src/auto-cli.cpp.o", "src/auto-cli.cpp"],
+  "file": "src/auto-cli.cpp"
+},
+{
+  "directory": "/home/kpgm/code/auto-cli",
+  "arguments": ["/usr/bin/g++", "-c", "-m64", "-std=c++20", "-Iinclude", "-Isrc", "-o", "build/.objs/auto-cli/linux/x86_64/release/src/convert.cpp.o", "src/convert.cpp"],
+  "file": "src/convert.cpp"
+}]
