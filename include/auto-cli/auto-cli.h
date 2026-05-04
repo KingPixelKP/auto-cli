@@ -10,9 +10,9 @@
 #include <unordered_map>
 #include <vector>
 
-#include "auto-cli/detail/flag.h"
-#include "auto-cli/detail/option.h"
-#include "auto-cli/detail/positional.h"
+#include "detail/flag.h"
+#include "detail/option.h"
+#include "detail/positional.h"
 
 namespace auto_cli {
 
